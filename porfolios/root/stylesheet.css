@@ -1,0 +1,48 @@
+h2  {color:red;}
+address {color red;}
+article footer span : 
+/* header et article on des bordure avec ,*/
+article, header {
+	border : ;
+
+img{
+	border-radius : 5px;
+}
+
+html {
+    /* pas de serif du tout */
+    font-family: sans;
+}
+
+
+img {
+    border-radius : 5px;
+    float:left;
+    margin-left:10px;
+}
+
+span {
+    font-size:0.9em;
+
+}
+
+article{
+    clear:both; / right, left, both /
+    padding:5px;
+    border:1px solid red;
+}
+
+article header h1{
+    color : #444;
+    margin:0;
+}
+
+
+article footer span:first-child{
+    color : #559;
+}
+
+/ nth-child(xxx) = le ènieme enfant */
+article footer span:nth-child(2){
+    color : #F00;
+}
